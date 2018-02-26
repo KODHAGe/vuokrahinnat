@@ -49,7 +49,7 @@ class ContentContainer extends React.Component {
         <Image content={image4} />
         <Paragraph content='
           Hajontakuvion tarkastelu osoittaa, kuinka pieni vaikutus etäisyydellä kunnalliskeskustaan näyttäisi mahdollisesti olevan kunnansisäiseen hinnanvaihteluun.
-          Lopulta aiheesta ei siis saatu skuuppia aikaiseksi, ainakaan tästä näkökulmasta. Ehkä verotusarvon tarkastelu, vaikka jo koluttu aihe sinänsä, olisi saattanut tuoda mielenkiintoisempia lopputuloksia.
+          Lopulta aiheesta ei siis saatu skuuppia aikaiseksi, ainakaan tästä näkökulmasta. Ehkä verotusarvon tarkastelu olisi saattanut tuoda mielenkiintoisempia lopputuloksia.
           Mutta vähemmän mielenkiintoisestakin datasetistä saa aikaan karttavisualisoinnin:
         '/>
         <Iframe url="https://zesty-walk.surge.sh/" />
