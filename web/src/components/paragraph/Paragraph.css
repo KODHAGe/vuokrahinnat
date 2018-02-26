@@ -1,0 +1,11 @@
+.Paragraph {
+  margin: auto;
+  max-width: 500px;
+  text-align: left;
+  line-height: 1.75em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.1em;
+  font-weight: 300;
+  padding:0 2em 0 2em;
+}
