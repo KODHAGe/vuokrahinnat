@@ -87,7 +87,7 @@ pal <- colorQuantile(
   palette = c("#F06292", "#26C6DA"),
   domain = sub_for_map$diff_to_avg_price_per_sqm)
 
-leaflet(data = sub_for_map) %>% addProviderTiles(providers$CartoDB.Positron) %>%
+map <- leaflet(data = sub_for_map) %>% addProviderTiles(providers$CartoDB.Positron) %>%
   addCircleMarkers(lat = ~lon,
              lng = ~lat,
              radius = 8,
@@ -95,16 +95,17 @@ leaflet(data = sub_for_map) %>% addProviderTiles(providers$CartoDB.Positron) %>%
              popup = ~as.character(paste(street_address, size)), 
              label = ~as.character(street_address),
              stroke = FALSE,
-             fillOpacity = 0.7)
+             fillOpacity = 0.7) %>%
+             suspendScroll()
 
 # flatten & export
 flat <- flatten(price_data, TRUE)
 json <- toJSON(flat, pretty=TRUE)
-write(json, "price_data.json")
-write.csv(flat, file="price_data.csv")
+write(json, "data/price_data_out.json")
+write.csv(flat, file="data/price_data_out.csv")
 
-saveWidget(map, file="map.html")
+saveWidget(map, file="index.html")
 
-# export json to some nice database
+# export json to some nice database 
 
 
