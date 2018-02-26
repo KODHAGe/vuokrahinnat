@@ -52,7 +52,7 @@ class ContentContainer extends React.Component {
           Lopulta aiheesta ei siis saatu skuuppia aikaiseksi, ainakaan tästä näkökulmasta. Ehkä verotusarvon tarkastelu, vaikka jo koluttu aihe sinänsä, olisi saattanut tuoda mielenkiintoisempia lopputuloksia.
           Mutta vähemmän mielenkiintoisestakin datasetistä saa aikaan karttavisualisoinnin:
         '/>
-        <Iframe url="http://zesty-walk.surge.sh/" />
+        <Iframe url="https://zesty-walk.surge.sh/" />
         <Footer />
       </div>
     );
