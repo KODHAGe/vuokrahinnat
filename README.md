@@ -6,3 +6,6 @@ Move fast and break things, amirite :)
 R <3 JS
 
 You'll need a Google API to run the R-stuff, so get one here: https://console.cloud.google.com/
+
+Map runs on surge at http://zesty-walk.surge.sh/
+and the site at http://vuokrahinnat.surge.sh/
