@@ -1,5 +1,5 @@
 .Header {
-  height: 800px;
+  height: 600px;
   width: 100%;
   position: relative;
 }
@@ -10,7 +10,6 @@
   background: url('../../assets/header_bg.jpg') no-repeat;
   background-position: center center;
   background-repeat:  no-repeat;
-  background-attachment: fixed;
   background-size:  cover;
   background-color: #999;
 }
@@ -45,7 +44,7 @@
   max-width: 900px;
   margin: auto;
   font-family: garamond;
-  font-size: 4.5em;
+  font-size: 4.25em;
   text-align: center;
   margin-bottom: 0.25em;
 }
